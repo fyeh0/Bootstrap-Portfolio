@@ -117,8 +117,11 @@ body {
     border-bottom: 2px solid #eeeeee;
   }
   
-  /* main */
-  
+  /* main 
+  .bodytext {
+      box-align: right;
+  }*/
+
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
@@ -168,9 +171,9 @@ body {
     border-bottom: 0;
   }
   
-  .auth-image {
+  #auth-image {
     float: left;
-    width: 200px;
+    width: 300px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
