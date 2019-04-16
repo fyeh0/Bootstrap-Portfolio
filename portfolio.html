@@ -1,40 +1,92 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="navbar">
-            <h1>Fang</h1>
 
-            <div class="links">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Your Name</a>
+            <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
-            </div>
+            </nav>
         </div>
+    </header>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="work">
+                                <img src="assets/images/cleo.png" alt="Cleo">
+
+                                <h3>Cleo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="work">
+                                <img src="assets/images/jenny.png" alt="Jenny">
+
+                                <h3>Jenny</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="work">
+                        <img src="assets/images/jerry_evey.png" alt="Jerry and Evey">
+
+                        <h3>Evey and Jerry</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="work">
+                        <img src="assets/images/junior_mimi.png" alt="Junior and Mimi">
+
+                        <h3>Junior and Mimi</h3>
+                    </div>
+                </div>
+            
+
+        
+                <div class="col-sm-6">
+                    <div class="work">
+                        <img src="assets/images/the_ladies.png" alt="the Ladies">
+
+                        <h3>Birdie, Blue, Oprah</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 
-    <div class="container">
-        <h2>Portfolio</h2>
-
-        <img src="assets/images/the_ladies.png" alt="the ladies">
-        <img src="assets/images/jerry_evey.png" alt="jerry and evey">
-        <img src="assets/images/jenny.png" alt="jenny">
-        <img src="assets/images/cleo.png" alt="cleo">
-        <img src="assets/images/junior_mimi.png" alt="junior and mimi">
-
-    </div>
-    <div class="footer">
-        <p>Copyright</p>
-    </div>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
-
-
 
 </html>

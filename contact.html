@@ -2,45 +2,51 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <div class="navbar">
-            <h1>Fang</h1>
-
-            <div class="links">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Your Name</a>
+            <nav>
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
-            </div>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <div class="container">
-        <h2>Contact</h2>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h2>Contact</h2>
 
-        <form class="form">
-            Name<br>
-            <input id="name" type="text" value="Joe Schmoe">
-            <br>
-            Email<br>
-            <input id="email" type="text" value="joeschmoe@email.com">
-            <br>
-            Message<br>
-            <textarea id="message">Hello!</textarea>
-            <br>
-            <button id="button" type="submit">Submit</button>
+            <form class="form">
+                Name<br>
+                <input id="name" type="text" value="Joe Schmoe">
+                <br>
+                Email<br>
+                <input id="email" type="text" value="joeschmoe@email.com">
+                <br>
+                Message<br>
+                <textarea id="message">Hello!</textarea>
+                <br>
+                <button id="button" type="submit">Submit</button>
 
-        </form>
-
+            </form>
+        </section>
     </div>
 </body>
 
-<div class="footer">
-    <p>Copyright</p>
-</div>
+<footer>
+    <div class="container">
+        Copyright &copy;
+    </div>
+</footer>
 
 </html>
