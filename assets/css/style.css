@@ -183,6 +183,10 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+  .work a {
+    color: #ffffff;
+  }
   
   #auth-image {
     float: left;
