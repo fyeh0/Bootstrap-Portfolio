@@ -165,7 +165,8 @@ body {
   }
   
   .work img {
-    width: 100%;
+    width: 274px;
+    height: 250px;
     border: 0 none;
     opacity: 0.8;
   }
