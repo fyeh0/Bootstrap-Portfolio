@@ -236,6 +236,16 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  #button {
+    margin-bottom: 30px;
+  }
+
+  #linkedin,
+  #github {
+    height: 50px;
+    width: 50px;
+  }
   
 
 
